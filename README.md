@@ -1,11 +1,11 @@
-# D drive as a Root of Revit Central Model Path and Symbolic_Link the Folder to a File Server Path
+### D drive as a Root of Revit Central Model Path and Symbolic_Link the Folder to a File Server Path
 
-## D:\ Root Path of a Revit Central Model
+#### D:\ Root Path of a Revit Central Model
 
     # Set the root path of the RVT central model files to D:\ drive
         D:\BIM\ClientA\ProjectB\CentralC\BuildingD_Central.rvt
 
-## Worksharing with Colleagues
+#### Worksharing with Colleagues
 
     # Work-Sharing the revit central model files with Colleagues on LAN by symbolic_link path
 
@@ -17,9 +17,9 @@
 
     # All Colleagues make symbolic_link same as above
 
-  ### # [The Complete Guide to Creating Symbolic Links (aka Symlinks) on Windows](https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/)
+  ##### # [The Complete Guide to Creating Symbolic Links (aka Symlinks) on Windows](https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/)
 
-## Sharing the Model with Partners
+#### Sharing the Model with Partners
 
     # zip the symbolic_link folder then it will zip all model files from the file server
 

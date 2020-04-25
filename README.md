@@ -12,12 +12,13 @@
     # cut "ProjectB" folder and paste it to under "Z:\BIM\ClientA"  
         move "D:\BIM\ClientA\ProjectB" "Z:\BIM\ClientA"
 
+    # Administrator Command Prompt
+        mklink /D "D:\BIM\ClientA\ProjectB" "Z:\BIM\ClientA\ProjectB"
+
     # All Colleagues make symbolic_link same as above to any network drive letter
         mklink /D "D:\BIM\ClientA\ProjectB" "W:\BIM\ClientA\ProjectB"
         mklink /D "D:\BIM\ClientA\ProjectB" "X:\BIM\ClientA\ProjectB"
         mklink /D "D:\BIM\ClientA\ProjectB" "Y:\BIM\ClientA\ProjectB"
-
-    # All Colleagues make symbolic_link same as above
 
   ##### # [The Complete Guide to Creating Symbolic Links (aka Symlinks) on Windows](https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/)
 

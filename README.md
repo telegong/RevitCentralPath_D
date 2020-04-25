@@ -20,6 +20,9 @@
         mklink /D "D:\BIM\ClientA\ProjectB" "X:\BIM\ClientA\ProjectB"
         mklink /D "D:\BIM\ClientA\ProjectB" "Y:\BIM\ClientA\ProjectB"
 
+    # Always Revit open file from the Same One Path
+        D:\BIM\ClientA\ProjectB\CentralC\BuildingD_Central.rvt
+
   ##### # [The Complete Guide to Creating Symbolic Links (aka Symlinks) on Windows](https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/)
 
 #### Sharing the Model with Partners
